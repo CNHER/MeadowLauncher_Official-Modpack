@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "discord": {
-  "shortId": "Meadow Launcher",
-  "largeImageText": "Meadow Launcher",
-  "largeImageKey": "discord"
-},
+    "shortId": "Meadow Launcher",
+    "largeImageText": "Meadow Launcher",
+    "largeImageKey": "discord"
+  },
   "servers": [
     {
       "id": "Meadow-Stable-1.20.4",
@@ -16,7 +16,19 @@
       "minecraftVersion": "1.20.4",
       "mainServer": true,
       "autoconnect": false,
+
       "modules": [
+        {
+  "id": "fabric-loader:0.15.11",
+  "name": "Fabric Loader",
+  "type": "Fabric",
+  "artifact": {
+    "size": 0,
+    "MD5": "",
+    "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.4/0.15.11/1.0.1/profile/json"
+  }
+},
+
         {
           "id": "fabric-api:0.97.3+1.20.4@jar",
           "name": "Fabric API",
@@ -27,6 +39,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/fabric-api-0.97.3%2B1.20.4.jar"
           }
         },
+
         {
           "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
           "name": "Sodium",
@@ -37,6 +50,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/sodium-fabric-0.5.8%2Bmc1.20.4.jar"
           }
         },
+
         {
           "id": "me.jellysquid.mods:lithium:0.12.1@jar",
           "name": "Lithium",
@@ -47,6 +61,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/lithium-fabric-mc1.20.4-0.12.1.jar"
           }
         },
+
         {
           "id": "ferritecore:ferritecore:6.0.3@jar",
           "name": "FerriteCore",
@@ -57,7 +72,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/ferritecore-6.0.3-fabric.jar"
           }
         },
-        {
+         {
           "id": "iris:iris:1.7.2+mc1.20.4@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -67,6 +82,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/iris-1.7.2%2Bmc1.20.4.jar"
           }
         },
+
         {
           "id": "entityculling:entityculling:1.10.5@jar",
           "name": "EntityCulling",
@@ -77,6 +93,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/entityculling-fabric-1.10.5-mc1.20.4.jar"
           }
         },
+
         {
           "id": "immediatelyfast:1.5.5+1.20.4@jar",
           "name": "ImmediatelyFast",
@@ -87,6 +104,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/ImmediatelyFast-Fabric-1.5.5%2B1.20.4.jar"
           }
         },
+
         {
           "id": "modernfix:modernfix:5.17.0+mc1.20.4@jar",
           "name": "ModernFix",
@@ -97,6 +115,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/modernfix-fabric-5.17.0%2Bmc1.20.4.jar"
           }
         },
+
         {
           "id": "journeymap:journeymap:1.20.4-5.10.0@jar",
           "name": "JourneyMap",
@@ -107,6 +126,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/journeymap-1.20.4-5.10.0-fabric.jar"
           }
         },
+
         {
           "id": "squeek.appleskin:appleskin:2.5.1@jar",
           "name": "AppleSkin",
@@ -117,6 +137,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/appleskin-fabric-mc1.20.3-2.5.1.jar"
           }
         },
+
         {
           "id": "lambdynamiclights:2.3.4+1.20.4@jar",
           "name": "LambDynamicLights",
@@ -127,6 +148,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/lambdynamiclights-2.3.4%2B1.20.4.jar"
           }
         },
+
         {
           "id": "snownee:jade:13.3.1@jar",
           "name": "Jade",
@@ -137,6 +159,7 @@
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/Jade-1.20.4-fabric-13.3.1.jar"
           }
         },
+
         {
           "id": "com.terraformersmc:modmenu:9.2.0@jar",
           "name": "Mod Menu",
