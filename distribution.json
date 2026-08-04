@@ -19,15 +19,6 @@
 
       "modules": [
         {
-  "id": "fabric-loader:0.15.11",
-  "name": "Fabric Loader",
-  "type": "FabricLoader",
-  "artifact": {
-    "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.4/0.15.11/profile/json"
-  }
-},
-
-        {
           "id": "fabric-api:0.97.3+1.20.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
