@@ -25,7 +25,7 @@
     "artifact": {
       "size": 1321135,
       "MD5": "744dbc7c568d7e782e6616637a14f6b3",
-      "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
+      "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/fabric-api-0.97.3%2B1.20.4.jar"
     },
     "subModules": [
       {
