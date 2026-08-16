@@ -16,196 +16,206 @@
       "minecraftVersion": "1.20.4",
       "mainServer": true,
       "autoconnect": false,
-
       "modules": [
         {
-  "id": "net.fabricmc:fabric-loader:0.15.6",
-  "name": "Fabric Loader 0.15.6",
-  "type": "Fabric",
-  "artifact": {
-    "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
-  },
-  "subModules": [
-    {
-      "id": "1.20.4-fabric-0.15.6",
-      "name": "Fabric Version Manifest",
-      "type": "VersionManifest",
-      "artifact": {
-        "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
-      }
-    },
-    {
-      "id": "org.ow2.asm:asm:9.6",
-      "name": "ASM",
-      "type": "Library",
-      "artifact": {
-        "size": 123598,
-        "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-        "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
-      }
-    },
-    {
-      "id": "org.ow2.asm:asm-analysis:9.6",
-      "name": "ASM Analysis",
-      "type": "Library",
-      "artifact": {
-        "size": 34041,
-        "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-        "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
-      }
-    },
-    {
-      "id": "org.ow2.asm:asm-commons:9.6",
-      "name": "ASM Commons",
-      "type": "Library",
-      "artifact": {
-        "size": 72194,
-        "MD5": "9e317c75534bd1da8c00a67c618ab288",
-        "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
-      }
-    },
-    {
-      "id": "org.ow2.asm:asm-tree:9.6",
-      "name": "ASM Tree",
-      "type": "Library",
-      "artifact": {
-        "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
-      }
-    },
-
-    {
-  "id": "org.spongepowered:mixin:0.8.5",
-  "name": "Mixin",
-  "type": "Library",
-  "artifact": {
-    "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-  }
-},
-
-{
-  "id": "org.ow2.asm:asm-util:9.6",
-  "name": "ASM Util",
-  "type": "Library",
-  "artifact": {
-    "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
-  }
-}
-  ]
-},
+          "id": "net.fabricmc:fabric-loader:0.15.6",
+          "name": "Fabric Loader 0.15.6",
+          "type": "Fabric",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.6",
+              "name": "Fabric Version Manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "ASM",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "ASM Commons",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "ASM Tree",
+              "type": "Library",
+              "artifact": {
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Mixin",
+              "type": "Library",
+              "artifact": {
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "ASM Util",
+              "type": "Library",
+              "artifact": {
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            }
+          ]
+        },
 
         {
-          "id": "fabric-api:0.97.3+1.20.4",
+          "id": "net.fabricmc.fabric-api:fabric-api:0.97.3+1.20.4",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
+            "path": "fabric-api-0.97.3+1.20.4.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/fabric-api-0.97.3%2B1.20.4.jar"
           }
         },
 
         {
-          "id": "sodium:0.5.8+mc1.20.4",
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
+            "path": "sodium-fabric-0.5.8+mc1.20.4.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/sodium-fabric-0.5.8%2Bmc1.20.4.jar"
           }
         },
 
         {
-          "id": "lithium:0.12.1",
+          "id": "me.jellysquid.mods:lithium:0.12.1",
           "name": "Lithium",
           "type": "FabricMod",
           "artifact": {
+            "path": "lithium-fabric-mc1.20.4-0.12.1.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/lithium-fabric-mc1.20.4-0.12.1.jar"
           }
         },
 
         {
-          "id": "ferritecore:6.0.3",
+          "id": "malte0811.ferritecore:ferritecore:6.0.3",
           "name": "FerriteCore",
           "type": "FabricMod",
           "artifact": {
+            "path": "ferritecore-6.0.3-fabric.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/ferritecore-6.0.3-fabric.jar"
           }
         },
 
         {
-          "id": "iris:1.7.2+mc1.20.4",
+          "id": "net.irisshaders:iris:1.7.2+mc1.20.4",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
+            "path": "iris-1.7.2+mc1.20.4.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/iris-1.7.2%2Bmc1.20.4.jar"
           }
         },
 
         {
-          "id": "entityculling:1.10.5",
+          "id": "tr7zw:entityculling:1.10.5",
           "name": "EntityCulling",
           "type": "FabricMod",
           "artifact": {
+            "path": "entityculling-fabric-1.10.5-mc1.20.4.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/entityculling-fabric-1.10.5-mc1.20.4.jar"
           }
         },
 
         {
-          "id": "immediatelyfast:1.5.5+1.20.4",
+          "id": "net.raphimc:ImmediatelyFast:1.5.5+1.20.4",
           "name": "ImmediatelyFast",
           "type": "FabricMod",
           "artifact": {
+            "path": "ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/ImmediatelyFast-Fabric-1.5.5%2B1.20.4.jar"
           }
         },
 
         {
-          "id": "modernfix:5.17.0+mc1.20.4",
+          "id": "maven.modrinth:modernfix:5.17.0+mc1.20.4",
           "name": "ModernFix",
           "type": "FabricMod",
           "artifact": {
+            "path": "modernfix-fabric-5.17.0+mc1.20.4.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/modernfix-fabric-5.17.0%2B1.20.4.jar"
           }
         },
 
         {
-          "id": "journeymap:5.10.0",
+          "id": "info.journeymap:journeymap:5.10.0",
           "name": "JourneyMap",
           "type": "FabricMod",
           "artifact": {
+            "path": "journeymap-1.20.4-5.10.0-fabric.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/journeymap-1.20.4-5.10.0-fabric.jar"
           }
         },
 
         {
-          "id": "appleskin:2.5.1",
+          "id": "squeek.appleskin:appleskin:2.5.1",
           "name": "AppleSkin",
           "type": "FabricMod",
           "artifact": {
+            "path": "appleskin-fabric-mc1.20.3-2.5.1.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/appleskin-fabric-mc1.20.3-2.5.1.jar"
           }
         },
 
         {
-          "id": "lambdynamiclights:2.3.4+1.20.4",
+          "id": "dev.lambdaurora.lambdynamiclights:lambdynamiclights:2.3.4+1.20.4",
           "name": "LambDynamicLights",
           "type": "FabricMod",
           "artifact": {
+            "path": "lambdynamiclights-2.3.4+1.20.4.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/lambdynamiclights-2.3.4%2B1.20.4.jar"
           }
         },
 
         {
-          "id": "jade:13.3.1",
+          "id": "snownee:jade:13.3.1",
           "name": "Jade",
           "type": "FabricMod",
           "artifact": {
+            "path": "Jade-1.20.4-fabric-13.3.1.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/Jade-1.20.4-fabric-13.3.1.jar"
           }
         },
 
         {
-          "id": "modmenu:9.2.0",
+          "id": "com.terraformersmc:modmenu:9.2.0",
           "name": "Mod Menu",
           "type": "FabricMod",
           "artifact": {
+            "path": "modmenu-9.2.0.jar",
             "url": "https://raw.githubusercontent.com/CNHER/MeadowLauncher_Official-Modpack/main/mods/modmenu-9.2.0.jar"
           }
         }
