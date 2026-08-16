@@ -80,6 +80,15 @@
   "artifact": {
     "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
   }
+},
+
+{
+  "id": "org.ow2.asm:asm-util:9.6",
+  "name": "ASM Util",
+  "type": "Library",
+  "artifact": {
+    "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+  }
 }
   ]
 },
