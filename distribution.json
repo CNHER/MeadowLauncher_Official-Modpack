@@ -71,7 +71,16 @@
       "artifact": {
         "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
       }
-    }
+    },
+
+    {
+  "id": "org.spongepowered:mixin:0.8.5",
+  "name": "Mixin",
+  "type": "Library",
+  "artifact": {
+    "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+  }
+}
   ]
 },
 
